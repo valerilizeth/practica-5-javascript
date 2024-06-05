@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Practica JavaScript</h1>
+
+    <h2>Ejercico de lectura y escritura con JS</h2>
+    <input id="valor1" type="number">
+    <button onclick="mostrarValor()">
+        Mostrar valor
+    </button>
+    <span id="input-valor">aqui vamos a mostrar el dato del input</span>
+
+    <h2>Calculadora</h2>
+    <input id="input-numero-1" type="number" placeholder="valor 1">
+    <span id="operacion">operacion</span>
+    <input id="input-numero-2" type="number" placeholder="valor 2">
+    <span>=</span>
+    <span id="resultado">resultado</span>
+    <div>
+        <button onclick="realizarOperacion('suma')">Sumar</button>
+        <button onclick="realizarOperacion('resta')">Restar</button>
+        <button onclick="realizarOperacion('multiplicacion')">Multiplicar</button>
+        <button onclick="realizarOperacion('division')">Dividir</button>
+    </div>
+
+    <!-- script:src -->
+    <!-- src => source => fuente -->
+
+    <!-- esto son los conceptos de JS -->
+    <!-- <script src="./script.js"></script> -->
+
+    <!-- ejercicio de JS de calculadora -->
+    <script src="calculadora.js"></script>
+</body>
+</html>
